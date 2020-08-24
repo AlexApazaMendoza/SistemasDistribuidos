@@ -74,5 +74,3 @@ firewall-cmd –reload	//cargar nuevamente el firewall
 curl 192.168.1.50	//en la ventana de comandos
 ```
 http://192.168.1.50/haproxy?stats		//en el navegador  
-
-
