@@ -142,5 +142,21 @@ Si cambia la configuración de Keepalived, vuelva a cargar el servicio keepalive
 ```
 systemctl reload keepalived
 ```
+### NGINX
+```
+dnf install -y nginx	//instalar nginx
+systemctl start nginx
+systemctl enable nginx
+cd /usr/share/ngnix/html	//entrar entrar en la carpeta para crear un archivo html
+```
+___
+```
+echo "Nginx Node01 - Welcome to First Nginx Web Server" > index.html	//en los dos nodos
+```
+___
+```
+firewall-cmd --permanent --add-service=http	//habilitar el servicio http
+firewall-cmd –reload	//cargar nuevamente el firewall
+```
 ### VERIFICAR
 http://192.168.1.49/haproxy?stats		//en el navegador  
