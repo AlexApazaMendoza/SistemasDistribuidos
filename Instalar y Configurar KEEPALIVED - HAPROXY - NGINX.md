@@ -142,3 +142,5 @@ Si cambia la configuración de Keepalived, vuelva a cargar el servicio keepalive
 ```
 systemctl reload keepalived
 ```
+### VERIFICAR
+http://192.168.1.49/haproxy?stats		//en el navegador  
