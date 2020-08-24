@@ -32,6 +32,7 @@ OBS: al no tener contraseña, se presiona enter (se deja vacío), se establece u
 Configurar en el servidor 2:  
 ```
 vi /etc/my.cnf.d/galera.cnf	//carpeta donde está el archivo de configuración
+```
 descomentar las líneas y agregar  
 ```
 wsrep_cluster_name="Galera_Cluster"
@@ -45,6 +46,7 @@ systemctl enable --now mariadb	//el parámetro now es para que inicialice
 Configurar en el servidor 3:   
 ```
 vi /etc/my.cnf.d/galera.cnf	//carpeta donde está el archivo de configuración
+```
 descomentar las líneas y agregar   
 ```
 wsrep_cluster_name="Galera_Cluster"
