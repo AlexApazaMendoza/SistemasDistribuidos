@@ -62,7 +62,8 @@ Entrar a mariadb:
 ```
 mysql -u root -p
 ```
-### ALGUNOS COMANDOS:```
+### ALGUNOS COMANDOS:
+```
 show databases;	//mostrar las bases de datos en el clúster
 create database test1;	//crear una base de datos
 ```
